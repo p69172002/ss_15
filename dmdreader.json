@@ -12,8 +12,9 @@
   },
   "processor": {
     "serum": {
-      "file": "/etc/trn_174h.cRZ",
-      "bits_per_pixel": 4
+      "file": "/etc/ss_15.crz",
+      "bits_per_pixel": 4,
+      "maximum_unknown_frames_to_skip": 5
     } 
   },
   "renderer": {
@@ -21,8 +22,8 @@
       "width": 128,
       "height": 32,
       "rgb_sequence": "rbg",
-      "brightness": 90,
-      "pwm_bits": 11
+      "brightness": 70,
+      "pwm_bits": 9
     }
   }
 }
